@@ -1,0 +1,19 @@
+﻿Build started 8/6/2019 8:58:02 AM.
+     1>Project "C:\Users\Yuchengd\Desktop\Ver2012\Ver2012\Ver2012.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib MyForm.cpp
+         MyForm.cpp
+     1>c:\users\yuchengd\desktop\ver2012\ver2012\MyForm.h(13): warning C4996: 'getcwd': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getcwd. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\direct.h(130) : see declaration of 'getcwd'
+     1>c:\users\yuchengd\desktop\ver2012\ver2012\MyForm.h(629): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\yuchengd\desktop\ver2012\ver2012\MyForm.h(639): warning C4101: 'folderName' : unreferenced local variable
+     1>c:\users\yuchengd\desktop\ver2012\ver2012\MyForm.h(720): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Yuchengd\Desktop\Ver2012\Release\Ver2012.exe" /INCREMENTAL:NO /NOLOGO /ASSEMBLYRESOURCE:Release\Ver2012.MyForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Yuchengd\Desktop\Ver2012\Release\Ver2012.pdb" /SUBSYSTEM:CONSOLE,"5.01" /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /SAFESEH Release\MyForm.obj
+         "Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         Ver2012.vcxproj -> C:\Users\Yuchengd\Desktop\Ver2012\Release\Ver2012.exe
+     1>Done Building Project "C:\Users\Yuchengd\Desktop\Ver2012\Ver2012\Ver2012.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.53

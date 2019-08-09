@@ -1,0 +1,7 @@
+open	10.10.18.33
+vsftp
+12345678
+prompt
+cd	TFile/LabTestTxt
+mput	"C:\Users\Yuchengd\Desktop\*.txt"
+quit
