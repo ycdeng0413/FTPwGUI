@@ -545,11 +545,11 @@ namespace Ver2012 {
 						 format = textBox11->Text;
 					 else;
 
-					 String ^ ip = textBox5->Text;
-					 String ^ usern = textBox4->Text;
-					 String ^ pword = textBox3->Text;
-					 String ^ serverf = listBox1->SelectedItem->ToString(); 
-					 String ^ fpath = textBox1->Text;
+					 String ^ip = textBox5->Text;
+					 String ^usern = textBox4->Text;
+					 String ^pword = textBox3->Text;
+					 String ^serverf = listBox1->SelectedItem->ToString(); 
+					 String ^fpath = textBox1->Text;
 
 					 String ^ paa;
 					 std::string pa = address();
